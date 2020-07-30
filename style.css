@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+html * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+body{
+    background-color: white;
+    background-image: linear-gradient(to top, #D9296A, #01978D);
+    
+    
+}
+body > img{
+    margin: auto;
+    max-width: 10%;
+    
+}
+
+header{
+    background-color:#01978D; /*; #D9296A
+    /*background-image: linear-gradient(to top, white, #01978D);*/
+    border-bottom: solid white 10px ;
+    max-width: 75%;
+    margin: auto;
+    background-image: url(Imagens/Logotipo.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-family: 'Acme';
+    font-size: 54px;
+    padding: 8px 24px;
+    text-shadow: 4px 4px 4px #000;
+
+}
+
+h2{
+    font-family: 'Acme';
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: black;
+    text-shadow: 4px 4px 4px grey;
+    padding: 16px;
+}
+
+p, ul{
+    font-family: 'Acme';
+    font-size: 20px;  
+    
+}
+
+p{
+    padding: 10px;
+}
+
+nav{
+    background-color: #01978D;
+    /*background-image: linear-gradient(to top, #D9296A, #01978D);*/
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+    
+    letter-spacing: 10px;
+    
+}
+nav > a {
+    border-bottom: 4px solid #01978D;
+    color: white;
+    font-size: 24px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s; /* permite transições mais suaves de estados */
+}
+
+nav > a:hover {
+    /*background-image: linear-gradient(to right, #ff307c, #019b91);*/
+    background-color: #D9296A;
+    border-bottom: 4px #7D5778;
+    color: white;
+    font-family: 'Acme';
+    font-size: 26px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    padding: 10px;
+    margin: auto;
+    /*background-image: linear-gradient(to top, #FFE1D5, #94D8CA);*/
+    background-color: #dbdbdb;
+    background-image: url(Imagens/Logotipo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 23%;
+}
+
+.home{
+    grid-column: 1/4;
+    
+}
+
+.membros{
+    border: 2px solid #7D5778;
+    padding: 5px;
+    border-radius: 16px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #D9296A, #01978D);
+}
+
+
+.fotos{
+    max-width: 50%;
+    border: 1px solid black;
+    
+}
+
+.torneio{
+    border: 2px solid black;
+}
+
+footer {
+    background-color:#D9296A ; /*#0E5259;*/
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    height: 128px;
+    
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.icone{
+    width: 20%; 
+    height: 50%;
+    
+
+}
+
+
